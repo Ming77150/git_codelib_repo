@@ -1,0 +1,13 @@
+prefix=C:/Users/md061/Desktop/temp/zlib-1.2.8/build/x86/install
+exec_prefix=C:/Users/md061/Desktop/temp/zlib-1.2.8/build/x86/install
+libdir=C:/Users/md061/Desktop/temp/zlib-1.2.8/build/x86/install/lib
+sharedlibdir=C:/Users/md061/Desktop/temp/zlib-1.2.8/build/x86/install/lib
+includedir=C:/Users/md061/Desktop/temp/zlib-1.2.8/build/x86/install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
