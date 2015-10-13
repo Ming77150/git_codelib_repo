@@ -6,13 +6,19 @@ $ModuleRoot                                                     ex: zlib
         ...
     deploy
         $Module_Version                                         ex: zlib-1.2.8
+            [include]
             $CompileTool                                        ex: vs2015 xcode androidstudio
+                [include]
                 $Platform                                       ex: windt winuwp macos ios android linux
+                    [include]
                     $Architecture                               ex: x86 x64 arm32 arm64
+                        [include]
                         $Configuration                          ex: debug release
                             bin
                             lib
-                            include
+                            [include]
+The 'include' folder can be any level under $Module_Version folder.
+If multi 'include' folder exist, use the most lowest level folder.
 
 for example for zlib module, the folder structure should be like this
 
