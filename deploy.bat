@@ -51,3 +51,11 @@ XCOPY %srcpath%\wxwidgets\deploy\wxWidgets-3.0.2\*.*				%dstpath%								/S /E
 
 ECHO deploying zlib module...
 XCOPY %srcpath%\zlib\deploy\zlib128\*.*								%dstpath%								/S /E
+
+ECHO deploying rapidjson module...
+XCOPY %srcpath%\rapidjson\deploy\rapidjson-1.0.2\*.*				%dstpath%								/S /E
+
+ECHO deploying rapidxml module...
+XCOPY %srcpath%\rapidxml\deploy\rapidxml-1.13\*.*					%dstpath%								/S /E
+
+
