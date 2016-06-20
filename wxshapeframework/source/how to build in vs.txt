@@ -1,0 +1,25 @@
+1) Create a new solution and project
+2) Add all src files to project
+3) Set Output Directory
+4) Set intermedia Directory
+5) Set Target Name
+	Release: $(ProjectName)30u
+	Debug:	 $(ProjectName)30ud
+6) Add Macro Defines
+	Release:	WXMAKINGDLL_WXSF
+			WXMAKINGDLL_WXXS
+			WXUSINGDLL
+			__WX__
+			__WXMSW__
+	Debug:		WXMAKINGDLL_WXSF
+			WXMAKINGDLL_WXXS
+			WXUSINGDLL
+			__WX__
+			__WXMSW__
+			__WXDEBUG__
+7 Add include directory for 'include' and 'src'
+the following steps explain how to use a standard external library
+8) Add external include dir for all configuration
+9) Add external include dir for each configuration
+10) Add Lib directory for each configuration
+11) Add external libraray files for each configuration
