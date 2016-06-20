@@ -58,4 +58,6 @@ XCOPY %srcpath%\rapidjson\deploy\rapidjson-1.0.2\*.*				%dstpath%								/S /E
 ECHO deploying rapidxml module...
 XCOPY %srcpath%\rapidxml\deploy\rapidxml-1.13\*.*					%dstpath%								/S /E
 
+ECHO deploying wxShapeFramework module...
+XCOPY %srcpath%\wxshapeframework\deploy\wxSF_src-1.13.0\*.*			%dstpath%								/S /E
 
